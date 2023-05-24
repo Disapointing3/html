@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <h1 id="title">Kdrama Romcoms</h1>
+      <p id="description">How do you watch your kdrama romcoms?</p>
+      
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Name: <input required type="text" id="name" name="email" placeholder="Enter your name"> </label>
+        <label for="email" id="email-label">Email: <input required id="email" type="email" name="email" placeholder="Enter your email"></label> 
+        <label for="number" id="number-label">Age: <input type="number" min="2" max="140" id="number" placeholder="Age"></label>
+        </fieldset>
+        <fieldset>
+          <label for="frequency">How frequently do you watch kdrama romcoms weekly?
+            <select id="frequency" name="frequency">
+              <option value="">(Select one)</option>
+              <option value="1">< 1 hour</option>
+              <option value="2">1-2 hours</option>
+              <option value="3">3-4 hours</option>
+              <option value="4">4+ hours</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+          <label for="dropdown">How do you most commonly watch kdrama romcoms? 
+            <select id="dropdown" name="dropdown">
+              <option value="">(Select one)</option>
+              <option value="1">Legal Site</option>
+              <option value="2">Illegal Site</option>
+              <option value="3">Television</option>
+              <option value="4">Other</option>
+              <option value="0">I don't watch any kdrama romcoms</option>
+              </select>
+            </label>
+            </fieldset>
+            <fieldset>
+            <label for="none" id="none"><input id="none" type="radio" name="enjoyment" class="inline" value="0">Not at all</label>
+            <label for="little" id="little"><input id="little" type="radio" name="enjoyment" class="inline" value="1">A little</label>
+            <label for="alot" id="alot"><input id="alot" type="radio" name="enjoyment" class="inline" value="2">A lot</label>
+            </fieldset>
+            <fieldset>
+              <p>What kdramas have you watched?</p>
+              <label for="watched" id="watched"><input id="watched" type="checkbox" name="Business Proposal" value="1"> Business Proposal</label>
+              <label for="watched" id="watched"><input id="watched" type="checkbox" name="Crash Landing on You" value="2"> Crash Landing on You</label>
+              <label for="watched" id="watched"><input id="watched" type="checkbox" name="Goblin" value="3"> Goblin</label>
+              </fieldset>
+              <fieldset>
+                <p>Any thoughts or shows to share?</p>
+                <input type=textarea id="comments" name="comments" rows="3" cols="60" placeholder="I really like..."</textarea>
+              <input type="submit" value="Submit" id="submit">
+              </fieldset>
+        </form>
+      </body>
+  </html>
