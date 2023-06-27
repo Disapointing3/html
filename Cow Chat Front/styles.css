@@ -1,0 +1,28 @@
+.top
+{
+    background-image: url("https://img.freepik.com/premium-vector/vector-illustration-cute-cow_714605-411.jpg");
+    color: rgb(123, 161, 123);
+
+    width: 100%;
+    left: 0px;
+    right: 0px;
+
+    position: absolute;
+
+    white-space: no-wrap;
+
+}
+
+.top-text
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+html
+{
+    background-image: url("https://i.pinimg.com/736x/48/08/98/48089809b4c9324dbbfc2ed8dbb4c94d.jpg");
+
+    font-family: "Comic Sans MS";
+}
