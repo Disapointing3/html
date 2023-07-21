@@ -1,3 +1,7 @@
+/*
+    Text
+*/
+
 header
 {
     font-size: 3rem;
@@ -21,14 +25,14 @@ p{
     font-size: 30px;
 }
 
-.coral
+.orange
 {
-    color:coral;
+    color:#f87107;
 }
 
 .basic-list li
 {
-    color:darkslateblue;
+    color:#74101b;
     font-size: 25px;
 }
 
@@ -39,6 +43,10 @@ p{
 }
 
 
+
+/*
+    Images
+*/
 
 #intro-image
 {
@@ -52,7 +60,7 @@ p{
     margin: 30px auto;
 }
 
-#planche-image
+.full-image
 {
     height: 400px;
     width: 100%;
@@ -77,10 +85,25 @@ p{
 
 }
 
-#planche-lean
+.flip
 {
-    -webkit-transform: scaleX(-1);
+    transform: rotateY(180deg);
 }
+
+#half-lay-img
+{
+    height: 300px;
+    width: 800px;
+    object-fit: none;
+}
+
+#half-lay-img2
+{
+    height: 300px;
+    width: 100%;
+    object-fit: none;
+}
+
 
 .progression
 {
@@ -91,24 +114,14 @@ p{
 .progressions
 {
     font-size: 2.5rem;
-    color:darkcyan;
+    color:#b71a2a;
 }
 
-.main-section
-{
-    width: 80%;
-    margin: auto;
-    top: none;
-    padding-bottom: 5rem;
 
-}
 
-html
-{
-    font-family: "Roboto";
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,143,143,1) 0%, rgba(255,248,182,1) 100.3% );
-
-}
+/*
+Navbar
+*/
 
 #navbar
 {
@@ -162,10 +175,31 @@ html
     background-color: #1a9f94;
 }
 
+
+
+/*
+    General stuff and media and regular resizing
+*/
+
+html
+{
+    font-family: "Roboto";
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,143,143,1) 0%, rgba(255,248,182,1) 100.3% );
+}
+
+.main-section
+{
+    width: 80%;
+    margin: auto;
+    top: none;
+    padding-bottom: 5rem;
+
+}
+
 #main-doc
 {
     position: absolute;
-    left: 550px;
+    left: 530px;
     top: 0;
 }
 
