@@ -187,6 +187,12 @@ html
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,143,143,1) 0%, rgba(255,248,182,1) 100.3% );
 }
 
+html:after(.parallax)
+{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,143,143,1) 0%, rgba(255,248,182,1) 100.3% );
+
+}
+
 .main-section
 {
     width: 80%;

@@ -10,40 +10,63 @@
 
 <body>
     <header id="header">
-        <h1>Awkward Cow Plushie</h1>
-        <img id="header-img"
-            href="https://cdn4.vectorstock.com/i/1000x1000/30/23/cute-cow-logo-icon-vector-32423023.jpg">
         <nav id="nav-bar">
             <ul>
-                <div class="nav-option">
-                    <a class="nav-link" href="#Features">Features</a>
-                </div>
-                <div class="nav-option">
-                    <a class="nav-link" href="#About">About</a>
-                </div>
-                <div class="nav-option">
-                    <a class="nav-link" href="#Other_Products">Other Products</a>
-                </div>
+                <li>
+                    <img id="header-img" src="Cow Goat-logos_transparent.png" alt="logo">
+                </li>
+                <ul class="stuck">
+                    <li class="nav-option">
+                        <a class="nav-link" href="#top">Top</a>
+                    </li>
+                    <li class="nav-option">
+                        <a class="nav-link" href="#Features">Features</a>
+                    </li>
+                    <li class="nav-option">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-option">
+                        <a class="nav-link" href="#Other_Products">Other Products</a>
+                    </li>
+                </ul>
+
             </ul>
         </nav>
     </header>
+
     <section class="main-section" id="sign-up">
-        <h2>Your mom, literal</h2>
-        <form id="form">
-            <input name="email" id="email" type="email" placeholder="Enter your email" required
+        <h1>Cow goes moo</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="--------email--------" required
                 action="https://www.freecodecamp.com/email-submit">
-            <input id="submit" type="submit" value="Cow lol" class="btn">
+            <input id="submit" type="submit" value="COW" id="submit-button" class="btn">
         </form>
     </section>
+
+    <div class="parallax"></div>
     <section class="main-section" id="ad">
-        <h1 class="ad-words">🤗 Cuddle up with our charming cow plushie! 🐮</h1>
-        <h1 class="ad-words">🥰 So soft, so sweet, and oh-so-cute.</h1>
-        <h1 class="ad-words">🧸 Make way for the newest plushie on the block!” 🎉</h1>
-        <h3 class="small-text">Phrases written by Bing's GPT</h3>
+        <div class="boxes">
+            <div class="box" id="box1">
+                <img class="box-pic" id="box-pic-1"
+                    src="https://i.pinimg.com/originals/3b/00/09/3b0009187e57d1d939d19352405938da.jpg">
+                <h2 class="ad-words">🥵 Majestic 🐮</h2>
+            </div>
+            <div class="box" id="box2">
+                <img class="box-pic" id="box-pic-2"
+                    src="https://i.pinimg.com/originals/fa/8e/65/fa8e650e7d9ebcdd0842c8a839d05ce0.jpg">
+                <h2 class="ad-words">🥰 Soft 😇</h2>
+            </div>
+            <div class="box" id="box3" id="box-pic-3">
+                <img class="box-pic" id="box-pic-3"
+                    src="https://i.pinimg.com/736x/81/9a/4d/819a4d415b3756db585ef017c475c02d--to-cuddle-plushies.jpg">
+                <h2 class="ad-words">🤠 Portable 💩</h2>
+            </div>
+        </div>
+
     </section>
-    <section class="main-section" id="video">
+    <section class="main-section" id="video-section">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/4XAORE1A25k" title="YouTube video player"
-            frameborder="0"
+            frameborder="0" id="video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </section>
